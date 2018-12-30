@@ -1,0 +1,14 @@
+AddKeysToAgent yes
+# 配置github.com
+Host github.com                 
+    HostName github.com
+    IdentityFile ~\.ssh\id_rsa_163
+    PreferredAuthentications publickey
+    User bakefish
+
+# 配置git.ey 
+Host 39.104.163.201
+    HostName 39.104.163.201
+    IdentityFile ~\.ssh\id_rsa_ey
+    PreferredAuthentications publickey
+    User ben
